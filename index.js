@@ -243,12 +243,12 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(array){
+function get20s(array, years, name){
   const lived = []
  
   for(let i = 0; i < array.length; i++){
-    if(array['years'].include('19')){
-      lived.filter(['name'])
+    if(years.include('19')){
+      lived.push(name);
     }
     
   }
@@ -287,8 +287,16 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(){
-    /*Your Code Here*/
+function addArtist(array){
+     array.push({ 
+      id: 20,
+      name: 'Your Name Here', 
+      years: 'Your Birth Year - current day',
+      genre: 'Web Design', 
+      nationality: 'Your Nationality Here',
+      bio: 'Add 1-2 sentences (or use lorem ipsum) '
+    }  );
+    return array;
   }
 
   
@@ -300,8 +308,14 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
+function lotsOfArt(array, paintings, name){
+  const lotsOfArt = []
+  for (let i = 0; i < array.length; i++){
+    if(paintings > 100) {
+      lotsOfArt.push(name)
+    }
+  }
+  return lotsOfArt;
 }
 
 
