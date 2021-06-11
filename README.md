@@ -23,9 +23,15 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+- accessibilty on the web is described as "how comfortable can the user access a specific website do to its accessible needs. If the user is on a laptop, desktop, mobile device, tablet Etc. it is essential tp accomadate the user needs in order to access and visibly see a smooth layout with minimal effort to use. The easier and simple the better it is for the user.
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+- adjust your media quieres to fit different screen sizes. max-width: 800 for desktop,laptop / min-width: 500 for mobile devices. and in doing so access the different classes, tag elements to accomadate the specific media quiries. 
+- change px to percantage and rems for better flexiblity on the website. 
+- use specific semantic tag elements on the html so the computer can easily recongize what to target and use classes more than ids when desgning/casacding your web page. 
 3. How would you explain the concept of a variable to someone new to programming?
+- variable is something that holds information. it contains a value and when used in a function, it holds a purpose. 
 4. What is the purpose of using functions in code?
+- the purpose of a function is to create an idea where it is easier for the user to get information. instead of figuring out the profit margin of a company, we create functions to calculate and retrieve certain data information to output certain desires such as the profit margin. makes our lives a lot easier to allow functions to run consistently on its own then having us "humans" to work on it. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
