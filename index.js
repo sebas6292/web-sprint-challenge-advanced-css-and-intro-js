@@ -245,10 +245,9 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(array, name){
   const lived = []
-  for (let i = 0; i < array.length; i++) {
-    if(array["years"] >= 1900 && array["years"] <= 2000){
-      lived.push(name);
-  }
+  if(array["years"].include("19") {
+      lived.push(array['name']);
+    }
   return lived;
 }
 
